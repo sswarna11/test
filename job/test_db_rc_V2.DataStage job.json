@@ -1,0 +1,39 @@
+{
+  "metadata" : {
+    "name" : "test_db_rc_V2.DataStage job",
+    "asset_id" : "829112de-2e4e-4ab7-9f51-9b5f33ccc6d9",
+    "owner_id" : "1000331018",
+    "version" : 0
+  },
+  "entity" : {
+    "job" : {
+      "asset_ref" : "5963f066-1e74-47ea-8822-a9f1ab886efc",
+      "schedule_id" : "",
+      "project_name" : "test_das",
+      "configuration" : {
+        "env_id" : "0f378b00-9d5f-4481-a906-b413941235a9",
+        "env_type" : "datastage",
+        "flow_limits" : {
+          "warn_limit" : 100
+        },
+        "env_variables" : [ ],
+        "runPriorityQueue" : "Medium"
+      },
+      "last_run_time" : "deprecated field",
+      "asset_ref_type" : "data_intg_flow",
+      "job_parameters" : [ {
+        "name" : "p_job_id",
+        "value" : "426837257411777"
+      } ],
+      "parameter_sets" : [ ],
+      "last_run_status" : "deprecated field",
+      "retention_policy" : { },
+      "last_run_initiator" : "deprecated field",
+      "schedule_creator_id" : "",
+      "enable_notifications" : true,
+      "future_scheduled_runs" : [ ],
+      "last_run_status_timestamp" : 0,
+      "flow_name" : "test_db_rc_V2"
+    }
+  }
+}
