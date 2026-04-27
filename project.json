@@ -1,6 +1,6 @@
 {
   "project" : "",
-  "projectId" : "e0d7640c-eb34-4b85-9078-4768b2312efd",
+  "projectId" : "178f5282-bf0e-4cf0-bac8-e57d1a1075ca",
   "encrypted" : {
     "name" : "ENCRYPTED",
     "sha" : "5e344c46d557b35359ab0029eac22a8796f35f5b",
@@ -10,243 +10,22 @@
     "iam_id" : "",
     "git_user" : "sswarna11"
   },
-  "commit-time" : "2026-04-27T11:42:54Z",
-  "commit-sha" : "6654a08cbbbbc892dc3473528924b5e5a552bad2",
+  "commit-time" : "2026-04-27T11:44:46Z",
+  "commit-sha" : "f6b787cd2dc5ee430c1f9fdf6bd758b26dcf132e",
   "readme" : {
     "name" : "DataStage-README.json",
-    "sha" : "88188958fd69be61fa40ec7ba02d39123549c2de",
-    "size" : 3681,
+    "sha" : "d96a898f06cbf55bb20a73c1d9bda4e63956ca1c",
+    "size" : 3744,
     "asset_type" : "readme",
     "resource_key" : "",
     "iam_id" : "",
     "git_user" : "sswarna11"
   },
-  "data_intg_flow" : {
-    "J_Custom_Statement_LOG" : {
-      "id" : "2fea203d-5711-447e-aab7-ab93d5554cb9",
-      "name" : "J_Custom_Statement_LOG",
-      "sha" : "dd8175a31bf941da3371498e01d521277922c633",
-      "size" : 10081,
-      "updated_at" : "2026-04-21T22:31:56Z",
-      "asset_type" : "data_intg_flow",
-      "resource_key" : "",
-      "iam_id" : "1000331001",
-      "user_name" : "cpadmin",
-      "git_user" : "sswarna11"
-    },
-    "J_Custom_Statement_LOG_2" : {
-      "id" : "3ad5cced-b565-4fd9-b0e3-a31796683a86",
-      "name" : "J_Custom_Statement_LOG_2",
-      "sha" : "96defd6fd4b00b7b3209fb95db814e24c7633249",
-      "size" : 8478,
-      "updated_at" : "2026-04-22T00:12:49Z",
-      "asset_type" : "data_intg_flow",
-      "resource_key" : "",
-      "iam_id" : "1000331001",
-      "user_name" : "cpadmin",
-      "git_user" : "sswarna11"
-    },
-    "J_Custom_Statement_LOG_2_beforesql" : {
-      "id" : "b7db3a12-eb45-4963-8157-45bf62e2b773",
-      "name" : "J_Custom_Statement_LOG_2_beforesql",
-      "sha" : "a650a0dd1ba8f91d403f6ceb720069c264cfdfac",
-      "size" : 10559,
-      "updated_at" : "2026-04-22T14:38:26Z",
-      "asset_type" : "data_intg_flow",
-      "resource_key" : "",
-      "iam_id" : "1000331001",
-      "user_name" : "cpadmin",
-      "git_user" : "sswarna11"
-    }
-  },
-  "orchestration_flow" : {
-    "Databricks_Orchestrator" : {
-      "id" : "c7b8ee7f-ac52-4383-9abb-011651c3c16e",
-      "name" : "Databricks_Orchestrator",
-      "sha" : "0d88652a71562b83ffa1dfd292df92aa57c3f442",
-      "size" : 10485,
-      "updated_at" : "2026-04-27T23:28:23Z",
-      "asset_type" : "orchestration_flow",
-      "resource_key" : "",
-      "iam_id" : "1000331001",
-      "user_name" : "cpadmin",
-      "git_user" : "sswarna11"
-    },
-    "testsnowsqlbash" : {
-      "id" : "fd9d5bcb-9ff2-4165-8dd7-63f61096cc0e",
-      "name" : "testsnowsqlbash",
-      "sha" : "67e5709013b7ce639a05cdece8787c3bc4ed13d7",
-      "size" : 9534,
-      "updated_at" : "2026-04-27T19:30:15Z",
-      "asset_type" : "orchestration_flow",
-      "resource_key" : "",
-      "iam_id" : "1000331001",
-      "user_name" : "cpadmin",
-      "git_user" : "sswarna11"
-    },
-    "testsnowsqlbash2" : {
-      "id" : "293ce60b-6ac1-4f64-a9f1-3d898a25b7db",
-      "name" : "testsnowsqlbash2",
-      "sha" : "67e5709013b7ce639a05cdece8787c3bc4ed13d7",
-      "size" : 9534,
-      "updated_at" : "2026-04-27T14:24:29Z",
-      "asset_type" : "orchestration_flow",
-      "resource_key" : "",
-      "iam_id" : "1000331001",
-      "user_name" : "cpadmin",
-      "git_user" : "sswarna11"
-    }
-  },
-  "jobs" : {
-    "J_Custom_Statement_LOG.DataStage job" : {
-      "id" : "7f984e2d-1b5f-4321-af76-0f28cbca4aa2",
-      "name" : "J_Custom_Statement_LOG.DataStage job",
-      "sha" : "71183f4b4bc62f28a22f6e2b7de93b6c70dea74a",
-      "size" : 973,
-      "updated_at" : "2026-04-21T22:31:56Z",
-      "asset_type" : "job",
-      "resource_key" : "",
-      "iam_id" : "1000331001",
-      "user_name" : "cpadmin",
-      "git_user" : "sswarna11"
-    },
-    "J_Custom_Statement_LOG_2.DataStage job" : {
-      "id" : "a2bdf418-4a2c-43d8-9d9b-ab2c744ad7f8",
-      "name" : "J_Custom_Statement_LOG_2.DataStage job",
-      "sha" : "49767137d54a95051e0a76a00bd2e6b53acf220a",
-      "size" : 980,
-      "updated_at" : "2026-04-22T00:12:49Z",
-      "asset_type" : "job",
-      "resource_key" : "",
-      "iam_id" : "1000331001",
-      "user_name" : "cpadmin",
-      "git_user" : "sswarna11"
-    },
-    "J_Custom_Statement_LOG_2_beforesql.DataStage job" : {
-      "id" : "953183dd-0d47-45d3-bf57-19af22346742",
-      "name" : "J_Custom_Statement_LOG_2_beforesql.DataStage job",
-      "sha" : "5d5e7e5ab85a2512d3fbbedf9a31124a2e53c5a0",
-      "size" : 1037,
-      "updated_at" : "2026-04-22T14:38:26Z",
-      "asset_type" : "job",
-      "resource_key" : "",
-      "iam_id" : "1000331001",
-      "user_name" : "cpadmin",
-      "git_user" : "sswarna11"
-    },
-    "Trial job - Databricks_Orchestrator" : {
-      "id" : "64fdeb8f-666e-450d-b3a7-b7f6ce100302",
-      "name" : "Trial job - Databricks_Orchestrator",
-      "sha" : "423d8bd327feb9d3a621e48ed319a0c9be91679a",
-      "size" : 1769,
-      "updated_at" : "2026-04-27T23:28:26Z",
-      "asset_type" : "job",
-      "resource_key" : "",
-      "iam_id" : "1000331001",
-      "user_name" : "cpadmin",
-      "git_user" : "sswarna11"
-    },
-    "Trial job - testsnowsqlbash" : {
-      "id" : "05c2188e-486a-45b1-9aa9-7cad23cfa709",
-      "name" : "Trial job - testsnowsqlbash",
-      "sha" : "8d1300a81fe3756222684ac4121efec4b18876b3",
-      "size" : 1047,
-      "updated_at" : "2026-04-27T19:30:15Z",
-      "asset_type" : "job",
-      "resource_key" : "",
-      "iam_id" : "1000331001",
-      "user_name" : "cpadmin",
-      "git_user" : "sswarna11"
-    },
-    "testsnowsqlbash.DataStage sequence job" : {
-      "id" : "910217d8-9385-42ac-aca8-208d1746e0f9",
-      "name" : "testsnowsqlbash.DataStage sequence job",
-      "sha" : "6ed29d8488c652acabb9ce75c775d2a947bf8712",
-      "size" : 823,
-      "updated_at" : "2026-04-27T19:30:15Z",
-      "asset_type" : "job",
-      "resource_key" : "",
-      "iam_id" : "1000331001",
-      "user_name" : "cpadmin",
-      "git_user" : "sswarna11"
-    }
-  },
-  "connection" : {
-    "C_Snowflake_Username" : {
-      "id" : "28c19ce6-a12d-4245-a33f-441bb39a98a7",
-      "name" : "C_Snowflake_Username",
-      "sha" : "e56c21a056943698efa0facf0d819b8d2d78c55f",
-      "size" : 194347,
-      "updated_at" : "2026-04-21T22:31:54Z",
-      "asset_type" : "connection",
-      "resource_key" : "",
-      "iam_id" : "1000331001",
-      "user_name" : "cpadmin",
-      "git_user" : "sswarna11"
-    },
-    "SnowflakeConnectorPX_keypair" : {
-      "id" : "9b7e3fc9-fecb-4ae8-8825-eb0ffaaac4ce",
-      "name" : "SnowflakeConnectorPX_keypair",
-      "sha" : "09ea38a0ed59e6717025b6f439c209f4e3874f44",
-      "size" : 196918,
-      "updated_at" : "2026-04-21T23:23:22Z",
-      "asset_type" : "connection",
-      "resource_key" : "",
-      "iam_id" : "1000331001",
-      "user_name" : "cpadmin",
-      "git_user" : "sswarna11"
-    },
-    "SnowflakeConnectorPX_supraja" : {
-      "id" : "ba8edd8d-9875-4876-bfe6-ddc628d07fc0",
-      "name" : "SnowflakeConnectorPX_supraja",
-      "sha" : "19971826af609f874cf25c4dcec1c8105563c719",
-      "size" : 194375,
-      "updated_at" : "2026-04-21T23:45:54Z",
-      "asset_type" : "connection",
-      "resource_key" : "",
-      "iam_id" : "1000331001",
-      "user_name" : "cpadmin",
-      "git_user" : "sswarna11"
-    },
-    "ds-orchestration" : {
-      "id" : "25fbf14f-e1d1-4f1d-9a1a-d7c4bd055fca",
-      "name" : "ds-orchestration",
-      "sha" : "d48f4916013ba206ee62646198aa9a7861c0242a",
-      "size" : 59592,
-      "updated_at" : "2026-04-27T12:39:42Z",
-      "asset_type" : "connection",
-      "resource_key" : "",
-      "iam_id" : "1000331001",
-      "user_name" : "cpadmin",
-      "git_user" : "sswarna11"
-    },
-    "snowflake_das" : {
-      "id" : "af7c9e7d-5a68-4ab0-926a-aea96db61d2a",
-      "name" : "snowflake_das",
-      "sha" : "8494a3a61ddeadc2d6496509264943ea762ce1ef",
-      "size" : 194283,
-      "updated_at" : "2026-04-27T23:28:20Z",
-      "asset_type" : "connection",
-      "resource_key" : "",
-      "iam_id" : "1000331001",
-      "user_name" : "cpadmin",
-      "git_user" : "sswarna11"
-    }
-  },
-  "parameter_set" : {
-    "pm1" : {
-      "id" : "0fd32bb6-5199-4021-bede-cfe33af1be2b",
-      "name" : "pm1",
-      "sha" : "e49d8f91783be32ecc20bde3e07c6560870b7d0f",
-      "size" : 1334,
-      "updated_at" : "2026-04-27T12:55:01Z",
-      "asset_type" : "parameter_set",
-      "resource_key" : "",
-      "iam_id" : "1000331001",
-      "user_name" : "cpadmin",
-      "git_user" : "sswarna11"
-    }
-  },
+  "data_intg_flow" : { },
+  "orchestration_flow" : { },
+  "jobs" : { },
+  "connection" : { },
+  "parameter_set" : { },
   "data_definition" : { },
   "data_intg_subflow" : { },
   "standardization_rule" : { },
