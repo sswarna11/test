@@ -1,0 +1,32 @@
+{
+  "metadata" : {
+    "name" : "J_Custom_Statement_LOG_2.DataStage job",
+    "asset_id" : "a2bdf418-4a2c-43d8-9d9b-ab2c744ad7f8",
+    "owner_id" : "1000331001",
+    "version" : 0
+  },
+  "entity" : {
+    "job" : {
+      "asset_ref" : "3ad5cced-b565-4fd9-b0e3-a31796683a86",
+      "schedule_id" : "",
+      "project_name" : "suprajanew",
+      "configuration" : {
+        "env_id" : "ac718884-0264-42cb-a393-1e8165f3d284",
+        "env_type" : "datastage",
+        "flow_limits" : { },
+        "env_variables" : [ ],
+        "runPriorityQueue" : "Medium"
+      },
+      "last_run_time" : "deprecated field",
+      "asset_ref_type" : "data_intg_flow",
+      "parameter_sets" : [ ],
+      "last_run_status" : "deprecated field",
+      "last_run_initiator" : "deprecated field",
+      "schedule_creator_id" : "",
+      "enable_notifications" : true,
+      "future_scheduled_runs" : [ ],
+      "last_run_status_timestamp" : 0,
+      "flow_name" : "J_Custom_Statement_LOG_2"
+    }
+  }
+}

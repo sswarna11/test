@@ -1,0 +1,32 @@
+{
+  "metadata" : {
+    "name" : "Trial job - testsnowsqlbash",
+    "description" : "Trial job and run created for the pipeline: testsnowsqlbash",
+    "asset_id" : "05c2188e-486a-45b1-9aa9-7cad23cfa709",
+    "owner_id" : "1000331001",
+    "version" : 0
+  },
+  "entity" : {
+    "job" : {
+      "asset_ref" : "fd9d5bcb-9ff2-4165-8dd7-63f61096cc0e",
+      "schedule_id" : "",
+      "project_name" : "suprajanew",
+      "configuration" : {
+        "version" : "fd9d5bcb-9ff2-4165-8dd7-63f61096cc0e-0",
+        "env_type" : "",
+        "sub_type" : "oflow_trial_run",
+        "pipeline_id" : "fd9d5bcb-9ff2-4165-8dd7-63f61096cc0e",
+        "env_variables" : [ ]
+      },
+      "last_run_time" : "deprecated field",
+      "asset_ref_type" : "orchestration_flow",
+      "last_run_status" : "deprecated field",
+      "last_run_initiator" : "deprecated field",
+      "schedule_creator_id" : "",
+      "enable_notifications" : true,
+      "future_scheduled_runs" : [ ],
+      "last_run_status_timestamp" : 0,
+      "flow_name" : "testsnowsqlbash"
+    }
+  }
+}
