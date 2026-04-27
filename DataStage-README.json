@@ -2,7 +2,7 @@
   "project" : "test_das",
   "projectId" : "a9142c5f-bc95-48e4-8b8a-52c630062bbc",
   "created_by" : "shaam",
-  "created_at" : "2026-04-27T20:20:41.819917734Z",
+  "created_at" : "2026-04-27T20:21:52.045782986Z",
   "environment" : "cp4d",
   "services_info" : [ {
     "name" : "ds-canvas",
@@ -35,6 +35,10 @@
   "assets" : [ {
     "name" : "test_db_rc_V2",
     "type" : "data_intg_flow",
+    "location" : ""
+  }, {
+    "name" : "snowflake_das",
+    "type" : "connection",
     "location" : ""
   }, {
     "name" : "test_db_rc_V2.DataStage job",
