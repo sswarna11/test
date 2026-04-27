@@ -1,0 +1,518 @@
+{
+  "app_data" : {
+    "pipeline_data" : {
+      "caching_method" : "automatic",
+      "validation" : {
+        "valid" : true,
+        "validated_at" : "2026-04-27 23:28:23.123432453 +0000 UTC"
+      },
+      "variables" : [ {
+        "description" : "",
+        "name" : "gv_run_id",
+        "prompt" : "",
+        "type" : "String",
+        "value_from" : {
+          "expression" : "\"\""
+        }
+      }, {
+        "description" : "",
+        "name" : "v_lifecycle_state",
+        "prompt" : "",
+        "type" : "String",
+        "value_from" : {
+          "expression" : "\"\""
+        }
+      } ],
+      "version" : "12.0"
+    },
+    "ui_data" : {
+      "raw_allowed" : false,
+      "settings" : {
+        "autosave" : true,
+        "autosave_freq" : 1000,
+        "enable_ds_funcs" : false
+      }
+    }
+  },
+  "doc_type" : "pipeline",
+  "id" : "51478fa3-13c3-42a6-baab-d8a07d8f5049",
+  "json_schema" : "https://api.dataplatform.ibm.com/schemas/common-pipeline/pipeline-flow/pipeline-flow-v3-schema.json",
+  "pipelines" : [ {
+    "app_data" : {
+      "pipeline_data" : {
+        "default_condition_name_counter" : 1,
+        "inputs" : [ {
+          "default" : "426837257411777",
+          "description" : "",
+          "name" : "target_databricks_job_id",
+          "prompt" : "",
+          "type" : "String"
+        }, {
+          "default" : "{dsmenc}cSejTk6cRV9Omxdw+P/3JH8jgmzb2oPpuLO1T8r/8bElHbqHQBuPFCNABhcnBz8I",
+          "description" : "",
+          "name" : "databricks_token",
+          "prompt" : "",
+          "type" : "Encrypted"
+        } ]
+      },
+      "ui_data" : {
+        "asset_metadata" : {
+          "default-asset-id_279e9a90-699b-4103-bb3f-1b6aec4d0d3a" : {
+            "catalog_id" : "311ffee2-2e2f-4edc-945d-ecec0dce89ec",
+            "name" : "test_db_rc_V2.DataStage job",
+            "project_id" : "e0d7640c-eb34-4b85-9078-4768b2312efd",
+            "type" : {
+              "CPDPath" : {
+                "asset_type" : "job",
+                "job_asset_type" : "data_intg_flow",
+                "path_type" : "resource",
+                "resource_type" : "asset"
+              }
+            }
+          },
+          "e0d7640c-eb34-4b85-9078-4768b2312efd" : {
+            "catalog_id" : "311ffee2-2e2f-4edc-945d-ecec0dce89ec",
+            "name" : "test_das",
+            "project_id" : "e0d7640c-eb34-4b85-9078-4768b2312efd"
+          }
+        },
+        "comments" : [ ],
+        "node_prev_unique_idx" : {
+          "control_user_variables" : 0,
+          "run_bash_script" : 0,
+          "run_datastage_job" : 2
+        },
+        "zoom" : {
+          "k" : 1,
+          "x" : -150,
+          "y" : -17.999984741210938
+        }
+      }
+    },
+    "id" : "9464aa2f-2300-43e0-804e-b62bacc33dda",
+    "nodes" : [ {
+      "app_data" : {
+        "annotations" : {
+          "cache_supported" : "true",
+          "component_group" : "run",
+          "component_type" : "datastage-job",
+          "component_type_name" : "DataStage Job",
+          "encrypted_supported" : "true",
+          "entitlements" : "datastage",
+          "node_name_from_input_asset" : "job",
+          "results_resolved" : "true"
+        },
+        "componentGroup" : "run",
+        "componentLabelRef" : "Run DataStage job",
+        "emptyImage" : "/pipelines/graphics/orchestration-flows/nodes/run/empty.svg",
+        "groups" : {
+          "inputs" : {
+            "env_variables" : {
+              "description" : "Additional environment variables passed to the job run.",
+              "descriptive_name" : "Environment Variables",
+              "human_name" : "Environment Variables",
+              "name" : "env_variables",
+              "optional" : true,
+              "pass_style" : "file",
+              "type" : "DynamicParamSet"
+            },
+            "job_parameters" : {
+              "description" : "Additional job parameters passed to the job run.",
+              "descriptive_name" : "Job Parameters",
+              "human_name" : "Job Parameters",
+              "name" : "job_parameters",
+              "optional" : true,
+              "pass_style" : "file",
+              "type" : "JobParameters"
+            },
+            "parameter_sets" : {
+              "description" : "Additional parameter sets passed to the job run.",
+              "descriptive_name" : "Parameter sets",
+              "human_name" : "Parameter sets",
+              "name" : "parameter_sets",
+              "optional" : true,
+              "pass_style" : "file",
+              "type" : "ParameterSets"
+            }
+          },
+          "outputs" : { }
+        },
+        "notConfigured" : false,
+        "pipeline_data" : {
+          "cache_mode" : "never",
+          "config" : {
+            "link" : {
+              "component_id_ref" : "run-datastage-job",
+              "component_version_id_ref" : "run-datastage-job-1"
+            }
+          },
+          "descriptive_name" : "run_datastage_job_2",
+          "inputs" : [ {
+            "allowed_scopes" : [ "space", "project" ],
+            "description" : "Required. CPD path of the DataStage job to be run.",
+            "human_name" : "DataStage Job",
+            "name" : "job",
+            "related_asset_type" : "data_intg_flow",
+            "source_of_scope" : true,
+            "type" : {
+              "CPDPath" : {
+                "asset_type" : "job",
+                "job_asset_type" : "data_intg_flow",
+                "path_type" : "resource",
+                "resource_type" : "asset"
+              }
+            },
+            "ui_data" : {
+              "assetInputType" : "exact",
+              "inputType" : "SELECT_RESOURCE",
+              "inputTypes" : {
+                "selected-node-values-job-input" : "SELECT_RESOURCE"
+              },
+              "scopeType" : "project"
+            },
+            "value" : "/projects/e0d7640c-eb34-4b85-9078-4768b2312efd/jobs/default-asset-id_279e9a90-699b-4103-bb3f-1b6aec4d0d3a"
+          }, {
+            "deprecated" : true,
+            "name" : "environment",
+            "related_asset_type" : "data_intg_flow",
+            "type" : {
+              "CPDPath" : {
+                "asset_type" : "environment",
+                "path_type" : "resource",
+                "resource_type" : "asset"
+              }
+            }
+          }, {
+            "name" : "error_policy",
+            "type" : "ErrorPolicy"
+          }, {
+            "group" : "job_parameters",
+            "name" : "p_job_id",
+            "type" : "String",
+            "ui_data" : {
+              "inputType" : "FLOW_PARAM",
+              "inputTypes" : {
+                "p_job_id-\"flow\"-SELECT_RESOURCE" : "SELECT_RESOURCE"
+              },
+              "unlinked" : true
+            },
+            "value_from" : {
+              "pipeline_input" : {
+                "param_name" : "target_databricks_job_id"
+              }
+            }
+          } ],
+          "name" : "run_datastage_job_2",
+          "outputs" : [ {
+            "name" : "job",
+            "type" : {
+              "CPDPath" : {
+                "asset_type" : "job",
+                "job_asset_type" : "data_intg_flow",
+                "path_type" : "resource",
+                "resource_type" : "asset"
+              }
+            }
+          }, {
+            "name" : "job_run",
+            "type" : {
+              "CPDPath" : {
+                "asset_type" : "job_run",
+                "path_type" : "resource",
+                "resource_type" : "asset"
+              }
+            }
+          }, {
+            "name" : "job_name",
+            "type" : "String"
+          }, {
+            "name" : "user_status",
+            "type" : "String"
+          }, {
+            "name" : "resolved_job_name",
+            "type" : "String"
+          }, {
+            "name" : "job_run_name",
+            "type" : "String"
+          }, {
+            "name" : "status",
+            "type" : "ExecutionStatus"
+          }, {
+            "name" : "status_message",
+            "type" : "String"
+          } ]
+        },
+        "ui_data" : {
+          "decorations" : [ {
+            "class_name" : "oflow-node-type-label",
+            "id" : "run_datastage_job_2_type_label",
+            "label" : "Run DataStage job",
+            "position" : "topLeft",
+            "x_pos" : 66,
+            "y_pos" : 45
+          } ],
+          "description" : "Run the DataStage job in the project or deployment space",
+          "image" : "/pipelines/graphics/orchestration-flows/nodes/run/datastage_flow.svg",
+          "label" : "run_datastage_job_2",
+          "x_pos" : 282,
+          "y_pos" : 96.99998474121094
+        }
+      },
+      "id" : "run_datastage_job_2",
+      "inputs" : [ {
+        "app_data" : {
+          "ui_data" : {
+            "cardinality" : {
+              "max" : -1,
+              "min" : 0
+            },
+            "class_name" : "oflow-node-port",
+            "label" : "Input Port"
+          }
+        },
+        "id" : "inPort"
+      } ],
+      "op" : "run_container",
+      "outputs" : [ {
+        "app_data" : {
+          "ui_data" : {
+            "cardinality" : {
+              "max" : -1,
+              "min" : 0
+            },
+            "class_name" : "oflow-node-port",
+            "label" : "Output Port"
+          }
+        },
+        "id" : "outPort"
+      } ],
+      "type" : "execution_node"
+    }, {
+      "app_data" : {
+        "annotations" : {
+          "cache_supported" : "true",
+          "component_group" : "run",
+          "component_type" : "bash-script",
+          "encrypted_supported" : "true",
+          "node_id_prefix" : "run_bash_script"
+        },
+        "componentGroup" : "run",
+        "componentLabelRef" : "Run Bash script",
+        "emptyImage" : "/pipelines/graphics/orchestration-flows/nodes/run/empty.svg",
+        "groups" : {
+          "inputs" : {
+            "env_variables" : {
+              "description" : "Additional environment variables passed to the shell.",
+              "descriptive_name" : "Environment Variables",
+              "human_name" : "Environment Variables",
+              "name" : "env_variables",
+              "optional" : true,
+              "pass_style" : "file",
+              "type" : "DynamicParamSet"
+            }
+          },
+          "outputs" : {
+            "output_variables" : {
+              "description" : "Custom outputs variables. Environment variables will be created with the names as the output variable names suffixed with `_PATH` which can be used in the script to create output (e.g. `echo -n someValue > $myVariable_PATH`).",
+              "descriptive_name" : "Output Variables",
+              "human_name" : "Output Variables",
+              "name" : "output_variables",
+              "pass_style" : "file",
+              "size_estimation" : 2000,
+              "type" : "DynamicParamSet"
+            }
+          }
+        },
+        "notConfigured" : false,
+        "pipeline_data" : {
+          "cache_mode" : "never",
+          "config" : {
+            "link" : {
+              "component_id_ref" : "run-bash-script",
+              "component_version_id_ref" : "run-bash-script-1"
+            }
+          },
+          "descriptive_name" : "Run_Bash_script",
+          "inputs" : [ {
+            "deprecated" : true,
+            "name" : "script_asset",
+            "type" : {
+              "CPDPath" : {
+                "asset_type" : "script",
+                "path_type" : "resource",
+                "resource_type" : "asset"
+              }
+            }
+          }, {
+            "name" : "script",
+            "pass_style" : "file",
+            "type" : "String",
+            "ui_data" : {
+              "inputType" : "SELECT_RESOURCE",
+              "inputTypes" : {
+                "selected-node-values-script-input" : "SELECT_RESOURCE"
+              }
+            },
+            "value" : "#!/bin/bash\nDATABRICKS_URL=\"https://dbc-f8700762-6ef6.cloud.databricks.com\"\nTOKEN=$(cat \"$DATABRICKS_TOKEN\")\nSTATE=\"PENDING\"\n\necho \"Checking Databricks run ID: $DB_RUN_ID\"\n\nwhile [ \"$STATE\" != \"TERMINATED\" ]; do\n  sleep 30\n  RESPONSE=$(curl -s -X GET \\\n    -H \"Authorization: Bearer $TOKEN\" \\\n    \"$DATABRICKS_URL/api/2.1/jobs/runs/get?run_id=$DB_RUN_ID\")\n    STATE=$(echo \"$RESPONSE\" | jq -r '.state.life_cycle_state // \"UNKNOWN\"')\n  echo \"Current state: $STATE\"\ndone\n\nRESULT=$(echo \"$RESPONSE\" | jq -r '.state.result_state // \"UNKNOWN\"')\n  \n\necho \"Final Databricks Result: $RESULT\"\n\nif [ \"$RESULT\" == \"SUCCESS\" ]; then\n  echo \"Databricks job completed successfully!\"\n  exit 0\nelse\n  echo \"Databricks job failed!\"\n  exit 1\nfi"
+          }, {
+            "current_scope" : true,
+            "name" : "hardware_specification",
+            "related_asset_type" : "orchestration_flow",
+            "type" : {
+              "CPDPath" : {
+                "asset_type" : "hardware_specification",
+                "path_type" : "resource",
+                "resource_type" : "asset"
+              }
+            }
+          }, {
+            "default" : "standalone",
+            "default_from" : {
+              "config" : "default_runtime_type"
+            },
+            "name" : "runtime_type",
+            "type" : "String",
+            "value" : "standalone"
+          }, {
+            "default" : "false",
+            "deprecated" : true,
+            "name" : "use_shared_runtime",
+            "type" : "String",
+            "value" : "false"
+          }, {
+            "name" : "error_policy",
+            "type" : "ErrorPolicy"
+          }, {
+            "group" : "env_variables",
+            "name" : "DB_RUN_ID",
+            "optional" : true,
+            "type" : "String",
+            "value_from" : {
+              "node_output" : {
+                "node_id_ref" : "run_datastage_job_2",
+                "param_name" : "user_status"
+              }
+            }
+          }, {
+            "group" : "env_variables",
+            "name" : "DATABRICKS_TOKEN",
+            "optional" : true,
+            "value_from" : {
+              "pipeline_input" : {
+                "param_name" : "databricks_token"
+              }
+            }
+          } ],
+          "name" : "run_bash_script",
+          "outputs" : [ {
+            "name" : "return_value",
+            "type" : "Integer"
+          }, {
+            "name" : "standard_output",
+            "pass_style" : "file",
+            "type" : "String"
+          }, {
+            "name" : "standard_error",
+            "pass_style" : "file",
+            "type" : "String"
+          }, {
+            "name" : "status",
+            "type" : "ExecutionStatus"
+          }, {
+            "name" : "status_message",
+            "type" : "String"
+          } ]
+        },
+        "ui_data" : {
+          "decorations" : [ {
+            "class_name" : "oflow-node-type-label",
+            "id" : "run_bash_script_type_label",
+            "label" : "Run Bash script",
+            "position" : "topLeft",
+            "x_pos" : 66,
+            "y_pos" : 45
+          } ],
+          "description" : "Run Bash script.",
+          "image" : "/pipelines/graphics/orchestration-flows/nodes/run/bash_script.svg",
+          "label" : "Run_Bash_script",
+          "x_pos" : 727,
+          "y_pos" : 115.99998474121094
+        }
+      },
+      "id" : "run_bash_script",
+      "inputs" : [ {
+        "app_data" : {
+          "ui_data" : {
+            "cardinality" : {
+              "max" : -1,
+              "min" : 0
+            },
+            "class_name" : "oflow-node-port",
+            "label" : "Input Port"
+          }
+        },
+        "id" : "inPort",
+        "links" : [ {
+          "app_data" : {
+            "ui_data" : {
+              "decorations" : [ {
+                "class_name" : "condition-decorator-add",
+                "height" : 16,
+                "hotspot" : true,
+                "id" : "assocDecAdd",
+                "image" : "/pipelines/graphics/orchestration-flows/add-condition.svg",
+                "outline" : false,
+                "position" : "middle",
+                "width" : 16,
+                "x_pos" : -8,
+                "y_pos" : -8
+              }, {
+                "class_name" : "condition-decorator-add-hover",
+                "height" : 40,
+                "hotspot" : true,
+                "id" : "assocDecAddPill",
+                "image" : "/pipelines/graphics/orchestration-flows/link/add-condition-pill.svg",
+                "outline" : false,
+                "position" : "middle",
+                "width" : 150,
+                "x_pos" : -75,
+                "y_pos" : -20
+              }, {
+                "class_name" : "condition-decorator-add-hover",
+                "height" : 16,
+                "id" : "assocDecAddText",
+                "label" : "Add condition",
+                "position" : "middle",
+                "width" : 84,
+                "x_pos" : -59,
+                "y_pos" : -11
+              } ]
+            }
+          },
+          "id" : "ed94b0f5-c941-4c8f-bf72-9460b319113b",
+          "node_id_ref" : "run_datastage_job_2",
+          "port_id_ref" : "outPort"
+        } ]
+      } ],
+      "op" : "run_container",
+      "outputs" : [ {
+        "app_data" : {
+          "ui_data" : {
+            "cardinality" : {
+              "max" : -1,
+              "min" : 0
+            },
+            "class_name" : "oflow-node-port",
+            "label" : "Output Port"
+          }
+        },
+        "id" : "outPort"
+      } ],
+      "type" : "execution_node"
+    } ],
+    "runtime_ref" : "kfp"
+  } ],
+  "primary_pipeline" : "9464aa2f-2300-43e0-804e-b62bacc33dda",
+  "schemas" : [ ],
+  "version" : "3.0"
+}
