@@ -1,0 +1,32 @@
+{
+  "metadata" : {
+    "name" : "Trial job - Databricks_Orchestrator",
+    "description" : "Trial job and run created for the pipeline: Databricks_Orchestrator",
+    "asset_id" : "913cb04d-685c-444b-a751-7ab8b256e23e",
+    "owner_id" : "1000331018",
+    "version" : 0
+  },
+  "entity" : {
+    "job" : {
+      "asset_ref" : "8a726a39-ee7e-44f5-95b0-f2f25cc27406",
+      "schedule_id" : "",
+      "project_name" : "test_das",
+      "configuration" : {
+        "version" : "8a726a39-ee7e-44f5-95b0-f2f25cc27406-0",
+        "env_type" : "",
+        "sub_type" : "oflow_trial_run",
+        "pipeline_id" : "8a726a39-ee7e-44f5-95b0-f2f25cc27406",
+        "env_variables" : [ ]
+      },
+      "last_run_time" : "deprecated field",
+      "asset_ref_type" : "orchestration_flow",
+      "last_run_status" : "deprecated field",
+      "last_run_initiator" : "deprecated field",
+      "schedule_creator_id" : "",
+      "enable_notifications" : true,
+      "future_scheduled_runs" : [ ],
+      "last_run_status_timestamp" : 0,
+      "flow_name" : "Databricks_Orchestrator"
+    }
+  }
+}

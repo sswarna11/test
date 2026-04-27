@@ -1,13 +1,13 @@
 {
   "metadata" : {
-    "name" : "test_db_rc_V2.DataStage job",
-    "asset_id" : "829112de-2e4e-4ab7-9f51-9b5f33ccc6d9",
+    "name" : "test_elt.DataStage job",
+    "asset_id" : "4477ad6a-aa34-42cc-8bf9-fe393096e4b8",
     "owner_id" : "1000331018",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref" : "5963f066-1e74-47ea-8822-a9f1ab886efc",
+      "asset_ref" : "820706e0-b47d-49de-b4d8-de6a3557076b",
       "schedule_id" : "",
       "project_name" : "test_das",
       "configuration" : {
@@ -21,16 +21,14 @@
       },
       "last_run_time" : "deprecated field",
       "asset_ref_type" : "data_intg_flow",
-      "job_parameters" : [ ],
       "parameter_sets" : [ ],
       "last_run_status" : "deprecated field",
-      "retention_policy" : { },
       "last_run_initiator" : "deprecated field",
       "schedule_creator_id" : "",
       "enable_notifications" : true,
       "future_scheduled_runs" : [ ],
       "last_run_status_timestamp" : 0,
-      "flow_name" : "test_db_rc_V2"
+      "flow_name" : "test_elt"
     }
   }
 }

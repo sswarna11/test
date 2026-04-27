@@ -2,14 +2,14 @@
   "project" : "test_das",
   "projectId" : "a9142c5f-bc95-48e4-8b8a-52c630062bbc",
   "created_by" : "shaam",
-  "created_at" : "2026-04-27T20:21:52.045782986Z",
+  "created_at" : null,
   "environment" : "cp4d",
   "services_info" : [ {
     "name" : "ds-canvas",
     "version" : "531.0.19"
   }, {
-    "name" : "ds-flows",
-    "version" : "531.0.14"
+    "name" : "ds-cas-lite",
+    "version" : "531.0.4"
   }, {
     "name" : "ds-codegen",
     "version" : "531.0.14"
@@ -17,37 +17,73 @@
     "name" : "ds-flow-runtime",
     "version" : "531.0.5"
   }, {
+    "name" : "ds-flows",
+    "version" : "531.0.14"
+  }, {
     "name" : "ds-migration",
     "version" : "531.0.5"
   }, {
-    "name" : "DSAssets",
-    "version" : "531.0.4"
-  }, {
-    "name" : "ds-cas-lite",
-    "version" : "531.0.4"
-  }, {
     "name" : "ds-px-runtime",
     "version" : "531.0.11"
+  }, {
+    "name" : "DSAssets",
+    "version" : "531.0.4"
   }, {
     "name" : "qs-ruleset",
     "version" : "531.0.4"
   } ],
   "assets" : [ {
-    "name" : "test_db_rc_V2",
-    "type" : "data_intg_flow",
-    "location" : ""
+    "name" : "Trial job - Databricks_Orchestrator",
+    "type" : "job"
+  }, {
+    "name" : "test.DataStage job",
+    "type" : "job"
   }, {
     "name" : "snowflake_das",
-    "type" : "connection",
-    "location" : ""
+    "type" : "connection"
+  }, {
+    "name" : "Databricks_Orchestrator",
+    "type" : "orchestration_flow"
   }, {
     "name" : "test_db_rc_V2.DataStage job",
-    "type" : "job",
-    "location" : ""
+    "type" : "job"
+  }, {
+    "name" : "test_elt.DataStage job",
+    "type" : "job"
   }, {
     "name" : "test_db_rc_V2",
     "type" : "px_executables",
     "location" : "test_db_rc_V2"
+  }, {
+    "name" : "test",
+    "type" : "px_executables",
+    "location" : "test"
+  }, {
+    "name" : "test_db_rc_V2",
+    "type" : "data_intg_flow"
+  }, {
+    "name" : "test_elt",
+    "type" : "px_executables",
+    "location" : "test_elt"
+  }, {
+    "name" : "default_datastage_px",
+    "type" : "environment"
+  }, {
+    "name" : "test_elt",
+    "type" : "data_intg_flow"
+  }, {
+    "name" : "test",
+    "type" : "data_intg_flow"
+  }, {
+    "name" : "test_Snowflake_LJ",
+    "type" : "data_intg_flow"
+  }, {
+    "name" : "a9142c5f-bc95-48e4-8b8a-52c630062bbc-DataStage_settings",
+    "type" : "data_intg_project_settings"
   } ],
-  "flow_job_mapping" : [ ]
+  "flow_job_mapping" : [ {
+    "flow" : "test_db_rc_V2",
+    "job" : "test_db_rc_V2.DataStage job",
+    "type" : "data_intg_flow"
+  } ]
 }

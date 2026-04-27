@@ -1,10 +1,41 @@
 {
   "data_intg_flow" : {
-    "test_db_rc_V2" : [ ]
+    "test" : [ {
+      "id" : "874319ac-aaa4-489b-a41a-0304f0cbbab1",
+      "name" : "snowflake_das",
+      "asset_type" : "connection"
+    } ],
+    "test_Snowflake_LJ" : [ ],
+    "test_db_rc_V2" : [ ],
+    "test_elt" : [ {
+      "id" : "874319ac-aaa4-489b-a41a-0304f0cbbab1",
+      "name" : "snowflake_das",
+      "asset_type" : "connection"
+    } ]
   },
   "orchestration_flow" : { },
   "data_intg_subflow" : { },
-  "job" : { },
+  "job" : {
+    "Trial job - Databricks_Orchestrator" : [ {
+      "id" : "8a726a39-ee7e-44f5-95b0-f2f25cc27406",
+      "name" : "Databricks_Orchestrator"
+    } ],
+    "test.DataStage job" : [ {
+      "id" : "98933f9a-3bff-41a8-a76c-19b1c8d6e4e4",
+      "name" : "test",
+      "asset_type" : "data_intg_flow"
+    } ],
+    "test_db_rc_V2.DataStage job" : [ {
+      "id" : "5963f066-1e74-47ea-8822-a9f1ab886efc",
+      "name" : "test_db_rc_V2",
+      "asset_type" : "data_intg_flow"
+    } ],
+    "test_elt.DataStage job" : [ {
+      "id" : "820706e0-b47d-49de-b4d8-de6a3557076b",
+      "name" : "test_elt",
+      "asset_type" : "data_intg_flow"
+    } ]
+  },
   "data_intg_parallel_function" : { },
   "data_intg_custom_stage" : { }
 }
