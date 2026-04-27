@@ -1,0 +1,56 @@
+{
+  "parameter_set" : {
+    "name" : "pm1",
+    "description" : "",
+    "parameters" : [ {
+      "name" : "account",
+      "description" : "",
+      "prompt" : "account",
+      "type" : "string",
+      "value" : "XSB70254"
+    }, {
+      "name" : "user",
+      "description" : "",
+      "prompt" : "user",
+      "type" : "string",
+      "value" : "supraja11"
+    }, {
+      "name" : "role",
+      "description" : "",
+      "prompt" : "role",
+      "type" : "string",
+      "value" : "ACCOUNTADMIN"
+    }, {
+      "name" : "warehouse",
+      "description" : "",
+      "prompt" : "warehouse",
+      "type" : "string",
+      "value" : "COMPUTE_WH"
+    }, {
+      "name" : "database",
+      "description" : "",
+      "prompt" : "database",
+      "type" : "string",
+      "value" : "SNOWFLAKE_LEARNING_DB"
+    }, {
+      "name" : "password",
+      "description" : "",
+      "prompt" : "password",
+      "type" : "encrypted",
+      "value" : "{dsmenc}N1JZWZubMdQmR9WCwWAQPX+tkg1KIc/t+axG7ArzKsY="
+    }, {
+      "name" : "schema",
+      "description" : "",
+      "prompt" : "schema",
+      "type" : "string",
+      "value" : "public"
+    }, {
+      "name" : "sqlfile",
+      "description" : "",
+      "prompt" : "sqlfile",
+      "type" : "string",
+      "value" : "/mnts/orchestration/supraja/load.sql"
+    } ],
+    "value_sets" : [ ]
+  }
+}
