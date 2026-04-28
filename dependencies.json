@@ -1,8 +1,15 @@
 {
-  "data_intg_flow" : { },
-  "orchestration_flow" : { },
+  "data_intg_flow" : {
+    "J_Custom_Statement_LOG" : [ {
+      "id" : "28c19ce6-a12d-4245-a33f-441bb39a98a7",
+      "name" : "C_Snowflake_Username",
+      "asset_type" : "connection"
+    } ]
+  },
+  "orchestration_flow" : {
+    "Databricks_Orchestrator" : [ ]
+  },
   "data_intg_subflow" : { },
-  "job" : { },
   "data_intg_parallel_function" : { },
   "data_intg_custom_stage" : { }
 }
