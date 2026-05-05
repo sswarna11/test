@@ -1,0 +1,63 @@
+{
+  "project" : {
+    "jobNameSuffix" : ".DataStage job",
+    "runEnvironmentId" : "0f378b00-9d5f-4481-a906-b413941235a9",
+    "runPriorityQueue" : "Medium",
+    "runRemoteEngineEnforcement" : false,
+    "testDataProperties" : {
+      "testCaseJobNameSuffix" : ".DataStageTestCase Job",
+      "testDataConnectionType" : ""
+    },
+    "saveFrequency" : "save_changes_automatically",
+    "formatTimeString" : "%hh:%nn:%ss",
+    "flowLimits" : {
+      "warnLimit" : 100
+    },
+    "testDataConnectionId" : "",
+    "nlsCollate" : "OFF",
+    "disableParamsRefreshCache" : false,
+    "runMessageHandlerId" : "",
+    "formatDecimalSeparator" : ".",
+    "testDataBasePath" : "",
+    "allowDuplicate" : false,
+    "sequenceNameSuffix" : ".DataStage sequence",
+    "defineParameters" : false,
+    "optimizedSequenceNameSuffix" : ".DataStage sequence job",
+    "runIsolatedEngineEnforcement" : false,
+    "runArtifactRetention" : {
+      "enabled" : false
+    },
+    "aiFeatures" : {
+      "enableDSAssistant" : false
+    },
+    "gitIntegration" : {
+      "gitCertKey" : "{dsnextenc}3WK1W2CR14FnD5eNSM/qVg==",
+      "enableGit" : true,
+      "gitProvider" : "git",
+      "gitCert" : "",
+      "gitFolder" : "",
+      "gitToken" : "{dsnextenc}G1G/DObBQwzoGy4ON4SrZjOjmW+C2N6/oTsr/5ogFe1UfldX7sVl7kvK4qhfE1GB",
+      "gitOwner" : "",
+      "dsUser" : "",
+      "gitURL" : "https://github.com/sswarna11/test.git",
+      "gitBranch" : "main"
+    },
+    "thresholdLimits" : { },
+    "runEnvironmentIds" : [ "0f378b00-9d5f-4481-a906-b413941235a9" ],
+    "formatDateString" : "%yyyy-%mm-%dd",
+    "flowAcpControl" : true,
+    "metricsRepository" : {
+      "enableMetrics" : false,
+      "metricsRetention" : {
+        "enabled" : false
+      },
+      "connection" : {
+        "datasource_type" : "e1c23729-99d8-4407-b3df-336e33ffdc82"
+      },
+      "enableAdvancedFind" : false
+    },
+    "nlsMap" : "UTF-8",
+    "formatTimestampString" : "%yyyy-%mm-%dd %hh:%nn:%ss",
+    "runEnvironmentNames" : [ "default_datastage_px" ]
+  }
+}

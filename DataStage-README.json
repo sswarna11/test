@@ -1,0 +1,155 @@
+{
+  "project" : "suprajanew",
+  "projectId" : "e0d7640c-eb34-4b85-9078-4768b2312efd",
+  "created_by" : "cpadmin",
+  "created_at" : "2026-04-28T00:05:07.321770398Z",
+  "environment" : "cp4d",
+  "services_info" : [ {
+    "name" : "ds-canvas",
+    "version" : "530.0.31"
+  }, {
+    "name" : "ds-flows",
+    "version" : "530.0.49"
+  }, {
+    "name" : "ds-codegen",
+    "version" : "530.0.49"
+  }, {
+    "name" : "ds-flow-runtime",
+    "version" : "530.0.12"
+  }, {
+    "name" : "ds-migration",
+    "version" : "530.0.12"
+  }, {
+    "name" : "DSAssets",
+    "version" : "530.0.5"
+  }, {
+    "name" : "ds-cas-lite",
+    "version" : "530.0.5"
+  }, {
+    "name" : "ds-px-runtime",
+    "version" : "530.0.46"
+  }, {
+    "name" : "qs-ruleset",
+    "version" : "530.0.5"
+  } ],
+  "assets" : [ {
+    "name" : "J_Custom_Statement_LOG",
+    "type" : "px_executables",
+    "location" : "J_Custom_Statement_LOG"
+  }, {
+    "name" : "J_Custom_Statement_LOG_2",
+    "type" : "px_executables",
+    "location" : "J_Custom_Statement_LOG_2"
+  }, {
+    "name" : "testsnowsqlbash.DataStage sequence job",
+    "type" : "job"
+  }, {
+    "name" : "pm1",
+    "type" : "parameter_set"
+  }, {
+    "name" : "J_Custom_Statement_LOG_2_beforesql",
+    "type" : "data_intg_flow"
+  }, {
+    "name" : "test_elt.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "test_db_rc_V2",
+    "type" : "px_executables",
+    "location" : "test_db_rc_V2"
+  }, {
+    "name" : "J_Custom_Statement_LOG_2_beforesql",
+    "type" : "px_executables",
+    "location" : "J_Custom_Statement_LOG_2_beforesql"
+  }, {
+    "name" : "default_datastage_px",
+    "type" : "environment"
+  }, {
+    "name" : "J_Custom_Statement_LOG_2_beforesql.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "ds-orchestration",
+    "type" : "connection"
+  }, {
+    "name" : "test_elt",
+    "type" : "data_intg_flow"
+  }, {
+    "name" : "test",
+    "type" : "data_intg_flow"
+  }, {
+    "name" : "test_Snowflake_LJ",
+    "type" : "data_intg_flow"
+  }, {
+    "name" : "C_Snowflake_Username",
+    "type" : "connection",
+    "location" : ""
+  }, {
+    "name" : "Trial job - Databricks_Orchestrator",
+    "type" : "job",
+    "location" : ""
+  }, {
+    "name" : "test.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "snowflake_das",
+    "type" : "connection",
+    "location" : ""
+  }, {
+    "name" : "Trial job - testsnowsqlbash",
+    "type" : "job"
+  }, {
+    "name" : "Databricks_Orchestrator",
+    "type" : "orchestration_flow",
+    "location" : ""
+  }, {
+    "name" : "e0d7640c-eb34-4b85-9078-4768b2312efd-DataStage_settings",
+    "type" : "data_intg_project_settings"
+  }, {
+    "name" : "J_Custom_Statement_LOG_2.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "test_db_rc_V2.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "testsnowsqlbash",
+    "type" : "orchestration_flow"
+  }, {
+    "name" : "testsnowsqlbash2",
+    "type" : "orchestration_flow"
+  }, {
+    "name" : "test",
+    "type" : "px_executables",
+    "location" : "test"
+  }, {
+    "name" : "J_Custom_Statement_LOG",
+    "type" : "data_intg_flow",
+    "location" : ""
+  }, {
+    "name" : "test_db_rc_V2",
+    "type" : "data_intg_flow"
+  }, {
+    "name" : "test_elt",
+    "type" : "px_executables",
+    "location" : "test_elt"
+  }, {
+    "name" : "J_Custom_Statement_LOG_2",
+    "type" : "data_intg_flow"
+  }, {
+    "name" : "SnowflakeConnectorPX_keypair",
+    "type" : "connection"
+  }, {
+    "name" : "J_Custom_Statement_LOG.DataStage job",
+    "type" : "job",
+    "location" : ""
+  }, {
+    "name" : "a9142c5f-bc95-48e4-8b8a-52c630062bbc-DataStage_settings",
+    "type" : "data_intg_project_settings"
+  }, {
+    "name" : "SnowflakeConnectorPX_supraja",
+    "type" : "connection"
+  } ],
+  "flow_job_mapping" : [ {
+    "flow" : "test_db_rc_V2",
+    "job" : "test_db_rc_V2.DataStage job",
+    "type" : "data_intg_flow"
+  } ]
+}
