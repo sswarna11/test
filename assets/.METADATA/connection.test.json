@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "asset_type": "connection",
+    "name": "test",
+    "origin_country": "us",
+    "rov": {
+      "mode": 0
+    },
+    "resource_key": "dfdmachin1.fyre.ibm.com|50000|sample",
+    "asset_category": "USER",
+    "created_at": "2026-05-05T18:14:54Z",
+    "created": 1778004894595,
+    "asset_id": "connection.test",
+    "asset_attributes": [
+      "connection"
+    ]
+  },
+  "entity": {
+    "connection": {
+      "datasource_type": "8c1a4480-1c29-4b33-9086-9cb799d7b157",
+      "data_source_definition_searchable": "dfdmachin1.fyre.ibm.com|50000|sample",
+      "context": "source,target",
+      "properties": {
+        "database": "sample",
+        "username_password_security": "default",
+        "port": "50000",
+        "host": "dfdmachin1.fyre.ibm.com",
+        "username_password_encryption": "default",
+        "ssl": "false",
+        "command_timeout": "600"
+      },
+      "flags": [
+        "personal_credentials"
+      ]
+    }
+  },
+  "attachments": []
+}
